@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab 1 - CSS Hover & Transition</title>
-    <link rel="stylesheet" href="assets/style/demo.css">
+    <link rel="stylesheet" href="assets/style/lab1.css">
 </head>
 <body>
 
-    <!-- ================= BÀI 1 ================= -->
+   
     <section id="buttons">
         <h2>Bài 1: Nút bấm đổi màu khi hover</h2>
         <div class="buttons">
@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <!-- ================= BÀI 2 ================= -->
+    
     <section id="gallery">
         <h2>Bài 2: Gallery ảnh hover</h2>
         <div class="gallery">
@@ -29,7 +29,7 @@
         </div>
     </section>
 
-    <!-- ================= BÀI 3 ================= -->
+    
     <section id="menu">
         <h2>Bài 3: Menu điều hướng</h2>
         <ul class="nav">
@@ -41,7 +41,7 @@
         </ul>
     </section>
 
-    <!-- ================= BÀI 4 ================= -->
+ 
     <section id="cards">
         <h2>Bài 4: Card sản phẩm</h2>
         <div class="cards">
@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <!-- ================= BÀI 5 ================= -->
+    
     <section class="banner">
         <h1 class="hero-title">Welcome to My Website</h1>
     </section>
