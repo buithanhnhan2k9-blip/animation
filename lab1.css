@@ -155,31 +155,26 @@ h2::after{
 }
 
 /* ================= BÀI 5: BANNER ================= */
-.banner{
-    height: 300px;
-    background: linear-gradient(135deg, #007bff, #00c6ff);
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+ .banner {
+            height: 200px;
+            background: #222;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
 
-.hero-title{
-    color: white;
-    font-size: 46px;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: heroFade 2s ease forwards;
-}
+        .hero-title {
+            color: white;
+            font-size: 40px;
+            white-space: nowrap;
+            animation: moveText 5s linear infinite;
+        }
 
-@keyframes heroFade{
-    from{
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
+        @keyframes moveText {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(100%);
+            }
+        }
