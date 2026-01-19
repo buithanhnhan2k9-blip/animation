@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 - JS Animation & Interactions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#section1" class="nav-link active">Bài 1: Dark Mode</a></li>
+            <li><a href="#section2" class="nav-link">Bài 3: Scroll Reveal</a></li>
+            <li><a href="#section3" class="nav-link">Bài 4: Jump Btn</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1" class="full-screen">
+        <div class="content">
+            <h1>Bài 1: Dark Mode Toggle</h1>
+            <p>Bấm nút bên dưới để chuyển đổi giao diện Sáng / Tối.</p>
+            <button id="toggle-mode-btn" class="btn-primary">Đổi nền (Toggle Dark Mode)</button>
+        </div>
+    </section>
+
+    <section id="section2" class="full-screen">
+        <div class="content">
+            <h1>Bài 3: Scroll Reveal</h1>
+            <p>Cuộn xuống để thấy các hộp nội dung xuất hiện.</p>
+            
+            <div class="box-container">
+                <div class="box">
+                    <h3>Box 1</h3>
+                    <p>Nội dung hộp số 1 xuất hiện từ từ.</p>
+                </div>
+                <div class="box">
+                    <h3>Box 2</h3>
+                    <p>Nội dung hộp số 2 trượt lên mượt mà.</p>
+                </div>
+                <div class="box">
+                    <h3>Box 3</h3>
+                    <p>Nội dung hộp số 3 đã sẵn sàng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3" class="full-screen">
+        <div class="content">
+            <h1>Bài 4: Button Animation</h1>
+            <p>Di chuột vào nút bên dưới để xem nó "nhảy".</p>
+            <br>
+            <button class="jump-btn">Hover Me!</button>
+        </div>
+    </section>
+
+    <div class="circle"></div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
