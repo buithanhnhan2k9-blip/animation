@@ -1,0 +1,45 @@
+[data-aos] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 0.9s;
+    transition-timing-function: cubic-bezier(.25,.8,.25,1);
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+  }
+  
+  /* Fade up mềm */
+  [data-aos="fade-up"] {
+    transform: translateY(60px);
+  }
+  [data-aos="fade-up"].aos-animate {
+    transform: translateY(0);
+  }
+  
+  /* Fade left */
+  [data-aos="fade-left"] {
+    transform: translateX(60px);
+  }
+  [data-aos="fade-left"].aos-animate {
+    transform: translateX(0);
+  }
+  
+  /* Zoom blur */
+  [data-aos="zoom-blur"] {
+    transform: scale(.85);
+    filter: blur(6px);
+  }
+  [data-aos="zoom-blur"].aos-animate {
+    transform: scale(1);
+    filter: blur(0);
+  }
+  
+  /* Flip 3D mượt */
+  [data-aos="flip-3d"] {
+    transform: perspective(800px) rotateY(90deg);
+  }
+  [data-aos="flip-3d"].aos-animate {
+    transform: perspective(800px) rotateY(0);
+  }
+  
